@@ -1,9 +1,10 @@
 {
   "name": "@douglassllc/mp4box-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MP4Box static binaries for Mac OSX, Linux, and Windows",
   "main": "index.js",
   "scripts": {
+    "install": "./build/index.sh",
     "build": "./build/index.sh"
   },
   "keywords": [
@@ -17,5 +18,9 @@
     "email": "doug@douglassllc.com",
     "url": "http://douglassllc.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglassllc/mp4box-static.git"
+  }
 }

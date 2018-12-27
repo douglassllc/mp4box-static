@@ -18,7 +18,7 @@ var mp4boxPath = path.join(
   'bin',
   platform,
   arch,
-  platform === 'win32' ? 'mp4box.exe' : 'mp4box'
+  platform === 'win32' ? 'MP4Box.exe' : 'MP4Box'
 )
 
 exports.path = mp4boxPath;
