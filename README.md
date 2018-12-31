@@ -6,6 +6,10 @@ Supports macOS (64-bit), Linux (32 and 64-bit) and Windows (32 and 64-bit). The 
 
 *Note:* The version of `mp4box-static` follows [SemVer](http://semver.org). When releasing new versions, **we do *not* consider breaking changes in `MP4Box` itself**, but only the JS interface (see below). To stop `mp4box-static` from breaking your code by getting updated, [lock the version down](https://docs.npmjs.com/files/package.json#dependencies) or use a [lockfile](https://docs.npmjs.com/files/package-lock.json).
 
+## What get's installed
+
+The minimal required EXE and DLLs are installed.  Currently only `-force-cat` feature of MP4Box has been tested.  Other DLLs might be required to support other MP4Box features. 
+
 ## Installation
 
 This module is installed via npm:
@@ -32,4 +36,4 @@ console.log(mp4box.path);
 
 ## Building the project
 
-The `unzip`, `tar`, `7zr`, and `xz` CLI executables need to be installed. On macOS, use `brew install p7zip gnu-tar xz`.
+The `unzip`, `tar`, `7z`, and `xz` CLI executables need to be installed. On macOS, use `brew install p7zip gnu-tar xz`.

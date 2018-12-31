@@ -3,8 +3,8 @@
 build/*
 !build/index.sh
 
-bin/linux/ia32/MP4Box 
-bin/linux/x64/MP4Box 
-bin/win32/ia32/MP4Box.exe 
-bin/win32/x64/MP4Box.exe
-bin/darwin/x64/MP4Box 
+bin/linux/ia32/*
+bin/linux/x64/*
+bin/win32/ia32/*
+bin/win32/x64/*
+bin/darwin/x64/*
