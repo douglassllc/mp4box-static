@@ -1,6 +1,6 @@
 {
   "name": "@douglassllc/mp4box-static",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "MP4Box static binaries for Mac OSX, Linux, and Windows",
   "main": "index.js",
   "scripts": {
