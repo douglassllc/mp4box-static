@@ -2,6 +2,10 @@
 set +e
 cd $(dirname $0)
 
+# Fix PATH so node looks at global environment first
+# NOTE:  was looking in ./node_modules/.bin/ for 7z
+export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:'$(npm bin)
+
 tar_exec=$(command -v gtar)
 if [ $? -ne 0 ]; then
 	tar_exec=$(command -v tar)
