@@ -14,7 +14,7 @@ if (platform === 'darwin' && arch !== 'x64') {
 }
 
 var mp4boxPath = path.join(
-  __dirname,
+  __dirname.match(/\/app.asar\//) ? __dirname.replace('app.asar', 'app.asar.unpacked') : __dirname,
   'bin',
   platform,
   arch,
