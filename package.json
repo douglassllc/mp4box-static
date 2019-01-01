@@ -6,8 +6,13 @@
   "scripts": {
     "install": "./build/index.sh",
     "build": "./build/index.sh",
+    "prepack": "npm run cleanup",
     "cleanup": "rm -rf build/darwin-x64-* build/linux-* build/win32-*; rm bin/darwin/x64/*; rm bin/linux/ia32/*; rm bin/linux/x64/*; rm bin/win32/ia32/*; rm bin/win32/x64/*; rm -rf bin/darwin/x64/*"
   },
+  "files": [
+    "bin",
+    "build/index.sh"
+  ],
   "keywords": [
     "MP4Box",
     "static",
